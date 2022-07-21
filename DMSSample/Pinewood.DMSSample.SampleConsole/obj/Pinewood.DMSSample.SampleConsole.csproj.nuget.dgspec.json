@@ -1,0 +1,107 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Hrushikesh\\Pinewood Refactoring Project\\DMSSample\\Pinewood.DMSSample.SampleConsole\\Pinewood.DMSSample.SampleConsole.csproj": {}
+  },
+  "projects": {
+    "C:\\Hrushikesh\\Pinewood Refactoring Project\\DMSSample\\DMSSample\\Pinewood.DMSSample.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Hrushikesh\\Pinewood Refactoring Project\\DMSSample\\DMSSample\\Pinewood.DMSSample.Business.csproj",
+        "projectName": "Pinewood.DMSSample.Business",
+        "projectPath": "C:\\Hrushikesh\\Pinewood Refactoring Project\\DMSSample\\DMSSample\\Pinewood.DMSSample.Business.csproj",
+        "packagesPath": "C:\\Users\\Hrushikesh\\.nuget\\packages\\",
+        "outputPath": "C:\\Hrushikesh\\Pinewood Refactoring Project\\DMSSample\\DMSSample\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hrushikesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net60": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net60": {
+          "dependencies": {
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Hrushikesh\\Pinewood Refactoring Project\\DMSSample\\Pinewood.DMSSample.SampleConsole\\Pinewood.DMSSample.SampleConsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Hrushikesh\\Pinewood Refactoring Project\\DMSSample\\Pinewood.DMSSample.SampleConsole\\Pinewood.DMSSample.SampleConsole.csproj",
+        "projectName": "Pinewood.DMSSample.SampleConsole",
+        "projectPath": "C:\\Hrushikesh\\Pinewood Refactoring Project\\DMSSample\\Pinewood.DMSSample.SampleConsole\\Pinewood.DMSSample.SampleConsole.csproj",
+        "packagesPath": "C:\\Users\\Hrushikesh\\.nuget\\packages\\",
+        "outputPath": "C:\\Hrushikesh\\Pinewood Refactoring Project\\DMSSample\\Pinewood.DMSSample.SampleConsole\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Hrushikesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net60": {
+            "projectReferences": {
+              "C:\\Hrushikesh\\Pinewood Refactoring Project\\DMSSample\\DMSSample\\Pinewood.DMSSample.Business.csproj": {
+                "projectPath": "C:\\Hrushikesh\\Pinewood Refactoring Project\\DMSSample\\DMSSample\\Pinewood.DMSSample.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net60": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
